@@ -10,11 +10,14 @@
     "format:fix": "prettier --write --ignore-path .gitignore ."
   },
   "dependencies": {
+    "@sanity/client": "^3.4.1",
     "@sanity/image-url": "^1.0.1",
     "next": "^13.0.0",
     "next-sanity": "^1.0.3",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.38.0",
+    "react-portable-text": "^0.5.1"
   },
   "devDependencies": {
     "@types/node": "^18.11.7",
